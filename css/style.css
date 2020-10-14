@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/wood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 94%;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 35vh;
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+}
+header:hover {
+  cursor: pointer;
+}
+.whitebg {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+.whitebg .natureimg {
+  width: 97%;
+  height: 91%;
+  background-image: url(../img/nature.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.layover h1 {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.layover h2 {
+  color: lightgrey;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 17vh;
+}
+
+nav {
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  background-color: #504741;
+}
+.link-nav {
+  width: 10%;
+  height: 7vh;
+  display: inline-block;
+  color: white;
+  line-height: 7vh;
+  vertical-align: middle;
+  background-color: #504741;
+}
+.link-nav:hover {
+  background-color: #302b28;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+}
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  width: 20%;
+  background-color: white;
+  float: left;
+}
+
+.center {
+  width: 50%;
+  background-color: white;
+  float: left;
+  margin: 0 5%;
+}
+
+.right {
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+.right h3, p {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+footer {
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+}
+.credits {
+  padding-top: 5px;
+  font-size: 20px;
+  color: lightgrey;
+  text-align: center;
+}
+hr {
+  border-color: #ececec;
+}
+footer i {
+  float: left;
+  width: 33.33%;
+  padding: 30px 0;
+  text-align: center;
+  color: lightgrey;
+  font-size: 30px;
+}
+.left,.center,.right,footer {
+  border-radius: 7px;
+}
