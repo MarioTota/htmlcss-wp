@@ -22,9 +22,6 @@ header {
   margin-top: 2vh;
   margin-bottom: 10vh;
 }
-header:hover {
-  cursor: pointer;
-}
 .img {
   width: 100%;
   height: 35vh;
@@ -32,6 +29,9 @@ header:hover {
   background-size: cover;
   background-position: center;
   border: 15px solid white;
+  }
+  .img:hover {
+    cursor: pointer;
   }
 .layover {
   width: 100%;
@@ -70,11 +70,10 @@ nav {
   color: white;
   line-height: 7vh;
   vertical-align: middle;
-  background-color: #504741;
+  cursor: pointer;
 }
 .link-nav:hover {
   background-color: #302b28;
-  cursor: pointer;
 }
 
 main {
